@@ -1,0 +1,39 @@
+﻿VARIABLE,DESCRIPTION
+Year,Year survey was done (YYYY).
+Month,Month survey was done (MM).
+Day,Day survey was done (DD).
+DOY,Day of year.
+StartHour,The hour the survey started (24-hour time).
+StartMinute,The minute the survey started.
+EndHour,The hour the survey ended (24-hour time).
+EndMinute,The minute the survey ended.
+ObstructedMinutes,Number of obstructed minutes of the survey. Obstruction of survey occurred when survey was stopped for a period due to rainfall.
+PDObstructedMinutes,Number of obstructed minutes of the survey pre-dawn (prior to sunrise). Obstruction of survey occurred when survey was stopped for a period due to rainfall.
+SurveyDuration,Total number of minutes of the survey. Calculated as (EndHour)*60+(EndMinute) – (StartHour)*60+(StartMinute) – ObstructedMinutes.
+PDSurveyDuration,Total number of minutes of the survey pre-dawn (prior to sunrise). Values are negative when the survey took place after dawn.
+SurveyDuration90PD,The number of minutes the survey ran during the 90 minute pre-dawn window (90 minutes prior to sunrise).
+Sunrise,Minute of the day the sun rose. Calculated by: (Hour of Sunrise)*60+(Minute of Sunrise).
+Region,"A code of the name of the region where the radar unit is located. Codes correspond to the following regions: AS = Alaska Stikine, CC = Central Mainland Coast, EV = East Coast Vancouver Island, HG = Haida Gwaii, NC = Northern Mainland Coast, NEP = North East Pacific, Other = Other, SC = Southern Mainland Coast, WC = West and North Vancouver Island."
+PICode,Anonymized code for person running the survey.
+ObserverCode,Anonymized code for persion who recorded the data.
+Status,"Status of survey. Indicates whether the survey is was completed (""Complete""), incompleted (""Incomplete""), excluded from analysis (""Excluded""), or rained out (""Rainout"")."
+Name,"Radar Station Name describes the geographic feature the radar station is located in; usually a river, bay, inlet or lake name. Marine and water features are selected for a predictable radar viewscape."
+Loc,"Location, where values may be coastal or inland."
+Lat,Latitude coordinate in demical degrees.
+Lon,Longitude coordinate in demical degrees.
+Unit,Radar unit name.
+Model,Radar unit model number.
+Tilt,The angle the radar unit was tilted from its original manufacturing design to face skyward.
+Radius,"Radius of survey, measured as a radar unit's detection radius in nautical miles (NM), set to either 0.5 or 0.75 NM."
+Dir,"Direction of the birds' flight, described as incoming, outgoing, or circling."
+MamuMax,"The highest value of marbled murrelets observed in the survey, taken from either MamuIn, MamuInPD, or MamuOut."
+MamuIn,"Number of marbled murrelets incoming, flying in the direction of the ocean to the forest."
+MamuOut,"Number of marbled murrelets outgoing, flying in the direction of the forest to the ocean."
+MamuInPD,"Number of marbled murrelets incoming pre-dawn (prior to sunrise), flying in the direction of the ocean to the forest."
+DetMax,"The highest value of detections, taken from either DetIn, DetOut, DetInPD. A detection differs from a marbled murrelet count (i.e., MamuIn, MamuOut, MamuInPD, MaxByYear) because it describes an occurrence incident but does not necessarily provide information on abundance."
+DetIn,"Number of marbled murrelets incoming detections, flying in the direction of the ocean to the forest. DetIn differs from MamuIn because it describes an occurrence incident but does not necessarily provide information on abundance. For example, DetIn=1 and MamuIn=3 if three birds are flying together in a group."
+DetOut,"Number of marbled murrelets outgoing detections, flying in the direction of the ocean to the forest. DetOut differs from MamuOut because it describes an occurrence incident but does not necessarily provide information on abundance. For example, DetOut=1 and MamuOut=3 if three birds are flying together in a group."
+DetInPD,"Number of marbled murrelets incoming detections pre-dawn (prior to sunrise), flying in the direction of the ocean to the forest. DetOut differs from MamuOut because it describes an occurrence incident but does not necessarily provide information on abundance. For example, DetOut=1 and MamuOut=3 if three birds are flying together in a group."
+MamuIn90PD,Number of marbled murrelets incoming (flying from the ocean to the forest) counted in 90 minutes pre-dawn (90 minutes prior to sunrise).
+MamuInPrior90PD,Number of marbled murrelets incoming (flying from the ocean to the forest) counted prior to the 90 minute pre-dawn window (counted before 90 minutes prior to sunrise).
+Comments,"Comments and notes regarding survey, including observations of weather conditions, habitat descriptions, and marbled murrelets."

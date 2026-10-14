@@ -1,0 +1,29 @@
+---
+title: "README: Example of a reproducible project"
+output: html_document
+date: "2026-10-14"
+---
+
+## Exploring the effect of radar tilt on marbled murrelet detections
+
+Author: Sam Walmsley
+
+Email: [sam.walmsley\@princeton.edu](mailto:sam.walmsley@princeton.edu){.email}
+
+Office: A344 Briger Hall, Princeton University
+
+#### Overview
+
+This repository contains data and code for the example project for Module 3 of EEB 390 at Princeton University (Fall 2026). The aim of this exercise was to use a real, published dataset to practice building reproducible analyses. We used a dataset of marbled murrelets (*Brachyramphus marmoratus*) available at <https://doi.org/10.6084/m9.figshare.25308250>. This dataset includes 1203 radar surveys with counts of marbled murrelets travelling out to sea or coming back to land from field seasons spanning 1996-2018. This specific project aims to read the data in R, perform some basic data exploration, and create a simple figure to explore the association between the tilt of the radar on the counts of incoming murrelet counts.
+
+#### Contents
+
+This repository is organized into three folders containing raw data ('Data'), coding scripts ('Code'), and the resulting figure ('Output'). The main dataset used for analysis is "mamu-count-data.csv". Metadata detailing each column is available in "mamu-count-metadata.csv". There is also a data-specific README file included in the 'Data' folder, which includes further details on how the data were collected.
+
+This project includes 3 coding scripts:
+
+- ***Script1-data-exploration-human.R*** -- The main script of the project. This script reads in the murrelet data, performs basic data exploration, and saves a high-resolution figure to "Output".
+
+- ***Script2-data-exploration-AI-exercise.R*** -- This is a secondary script resulting from using AI to perform the same task. This script produces no outputs.
+
+- ***Script3-Murrelet-Errors.R*** -- This is a secondary script to identify potential errors in the murrelet dataset. This script produces no outputs.

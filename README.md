@@ -1,6 +1,5 @@
-README: Example of a reproducible project
+EEB 390: Example of a reproducible project
 ================
-2026-10-14
 
 ## Exploring the effect of radar tilt on marbled murrelet detections
 
@@ -9,6 +8,8 @@ Author: Sam Walmsley
 Email: <sam.walmsley@princeton.edu>
 
 Office: A344 Briger Hall, Princeton University
+
+2026-10-14
 
 #### Overview
  

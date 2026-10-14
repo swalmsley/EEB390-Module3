@@ -1,6 +1,6 @@
 ---
 title: "README: Example of a reproducible project"
-output: html_document
+output: github_document
 date: "2026-10-14"
 ---
 
